@@ -1,0 +1,307 @@
+@charset "UTF-8";
+* {
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.headers {
+  width: 375px;
+  height: 63px;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log__logo {
+  width: 197px;
+  height: 36px;
+  padding-top: 15px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.1) inset;
+  margin-bottom: -8px;
+  margin-top: 1px;
+  width: 375px;
+  height: 50px;
+  background: rgb(234, 234, 234);
+  font-size: 18.5px;
+  color: rgb(53, 53, 53);
+}
+.location i {
+  padding-right: 25px;
+  color: rgb(53, 53, 53);
+}
+
+.titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  margin-top: 11px;
+  width: 375px;
+  height: 300px;
+}
+.titre__page {
+  width: 275px;
+  height: 68px;
+  font-size: 25px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.titre__p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  height: 46px;
+  color: rgb(53, 53, 53);
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  margin-top: -10px;
+}
+.titre__button {
+  width: 218px;
+  height: 50px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 440px;
+}
+.list__titre {
+  width: 275px;
+  height: 31px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.list__items--listItem {
+  width: 335px;
+  height: 72.38px;
+  list-style-type: none;
+}
+.list__items--listItem button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 322.49px;
+  height: 72.38px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  background: rgb(246, 246, 246);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-left: -6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.list__items--listItem button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: rgb(147, 86, 220);
+  font-size: 14.18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50%;
+  margin-right: 322px;
+}
+.list__items--listItem button i {
+  position: absolute;
+  margin-right: 230px;
+  width: 13.02px;
+  height: 19.9px;
+  color: rgb(126, 126, 126);
+}
+.list__items--listItem button .fa-store {
+  color: rgb(147, 86, 220);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 375px;
+  height: 1230px;
+  background: rgb(246, 246, 246);
+}
+.cards h2 {
+  width: 275px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: -60px;
+  margin-bottom: -20px;
+}
+.cards a {
+  text-decoration: none;
+  color: inherit;
+}
+.cards a article {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 251px;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+}
+.cards a article img {
+  position: relative;
+  width: 340px;
+  height: 231px;
+  -webkit-clip-path: inset(55px 0 0 0);
+          clip-path: inset(55px 0 0 0);
+  border-radius: 15px 15px 0 0;
+  margin-top: -57px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards a article div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 80px;
+  height: 29px;
+  background: rgb(153, 226, 208);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 135, 102);
+}
+.cards a article h3 {
+  width: 267px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.cards a article p {
+  width: 247px;
+  height: 24px;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+.cards a article i {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  margin-top: -61px;
+  margin-right: 30px;
+  font-size: 25px;
+  opacity: 0.9;
+}
+.cards a article .fa-solid {
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  -webkit-background-clip: text; /* برای مرورگرهای WebKit (مثل Chrome و Safari) */
+  background-clip: text; /* برای سایر مرورگرها */
+  color: transparent; /* باعث می‌شود رنگ معمولی متن (آیکون) شفاف شود */
+}
+
+footer {
+  width: 375px;
+  height: 207px;
+  background: rgb(53, 53, 53);
+}
+footer h2 {
+  color: white;
+  width: 139px;
+  height: 27px;
+  font-family: Shrikhand;
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px;
+}
+footer div {
+  width: 205px;
+  height: 115px;
+  margin-top: -18px;
+}
+footer div p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14px;
+  width: 290px;
+  height: 25px;
+  color: white;
+  margin-top: -10px;
+  white-space: nowrap;
+}
+footer div .icon-restaurant {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+footer div .icon-restaurant i {
+  margin-right: 23px;
+  width: 11px;
+  height: 13px;
+}
+footer div .icon-restaurant-2 {
+  display: flex;
+  flex-direction: row;
+  width: 165px;
+}
+footer div .icon-restaurant-2 i {
+  margin-right: 23px;
+  width: 11px;
+  height: 13px;
+}/*# sourceMappingURL=style.css.map */
