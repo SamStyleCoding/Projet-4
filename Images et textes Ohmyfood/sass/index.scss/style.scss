@@ -36,6 +36,7 @@ $color-buttons: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 	border: none;
 	border-radius: 50%;
 	margin-right: 322px;
+	color: white;
 }
 
 @mixin i-buttons-list{
@@ -140,6 +141,12 @@ body{
 			border-radius: 30px;
 			font-size: 16px;
 			margin-top: 20px;
+			cursor: pointer;
+			transition:opacity 0.3s, transform 0.3s;
+		}
+		&__button:hover{
+			opacity: 0.9;
+			transform: scaleX(1.01);
 		}
 }
 
@@ -250,13 +257,17 @@ body{
 						}
 						i{
 							display: flex;
-							align-self: flex-end;
-							align-items: center;
-							justify-content: center;
-							margin-top: -61px;
-							margin-right: 30px;
-							font-size: 25px;
-							opacity: 0.9;
+								align-self: flex-end;
+								align-items: center;
+								justify-content: center;
+								margin-top: -61px;
+								margin-right: 30px;
+								font-size: 25px;
+								opacity: 0.9;
+								color: black;
+								background-color: transparent;
+								--webkit-text-stroke: 1px black;
+								transition: all 0.3s ease;
 						}
 						.fa-solid{
 							background: $color-buttons;

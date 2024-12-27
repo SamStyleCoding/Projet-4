@@ -94,6 +94,12 @@ body {
   border-radius: 30px;
   font-size: 16px;
   margin-top: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+}
+.titre__button:hover {
+  opacity: 0.9;
+  transform: scaleX(1.01);
 }
 
 .list {
@@ -148,6 +154,7 @@ body {
   border: none;
   border-radius: 50%;
   margin-right: 322px;
+  color: white;
 }
 .list__items--listItem button i {
   position: absolute;
@@ -242,6 +249,10 @@ body {
   margin-right: 30px;
   font-size: 25px;
   opacity: 0.9;
+  color: black;
+  background-color: transparent;
+  --webkit-text-stroke: 1px black;
+  transition: all 0.3s ease;
 }
 .cards a article .fa-solid {
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
