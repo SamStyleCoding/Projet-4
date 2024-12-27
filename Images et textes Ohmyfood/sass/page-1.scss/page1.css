@@ -131,6 +131,7 @@ section article div ul {
   gap: 10px;
 }
 section article div ul li {
+  position: relative;
   margin-left: -40px;
   width: 349px;
   height: 69px;
@@ -138,6 +139,33 @@ section article div ul li {
   background: rgb(255, 255, 255);
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
+  cursor: pointer;
+}
+section article div ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: rgb(153, 226, 208);
+  width: 59px;
+  height: 69px;
+  border: none;
+  margin-top: -71px;
+  margin-left: 290px;
+  border-radius: 0px 15px 15px 0px;
+}
+section article div ul li div span {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50px;
+}
+section article div ul li div span i {
+  color: rgb(153, 226, 208);
+  font-size: 15px;
+  padding: 2px 0 0 2px;
 }
 section article div ul li h2 {
   width: 287px;
