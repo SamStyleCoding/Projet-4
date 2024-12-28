@@ -52,6 +52,9 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+		@media (min-width: 1200px) {
+			margin: 0;
+		}
 }
 
 .container{
@@ -63,12 +66,18 @@ body{
 	height: auto;
     padding: 0 20px;
     box-sizing: border-box;
+		@media (min-width: 1200px) {
+			max-width: 1440px;
+		}
 }
 
 // ===== header =====
 .headers{
 	width: 375px;
 	height: 63px;
+		@media (min-width: 1200px) {
+			width: 1440px;
+		}
 }
 
 .log{
@@ -100,6 +109,10 @@ body{
 			padding-right: 25px;
 			color: $dark-gray
 		}
+		@media (min-width: 1200px) {
+			width: 1440px;
+			box-shadow: none;
+		}
 	}
 
 .titre {
@@ -110,6 +123,11 @@ body{
 	margin-top: 11px;
 	width: 375px;
 	height: 300px;
+		@media (min-width: 1200px) {
+			width: 1440px;
+			margin-top: 0;
+			height: 230px;
+		}
 		&__page{
 			width: 275px;
 			height: 68px;
@@ -118,6 +136,9 @@ body{
 			display: flex;
 			justify-content: center; 
 			text-align: center;
+				@media (min-width: 1200px) {
+					text-wrap: nowrap;
+				}
 		}
 		&__p{
 			display: flex;
@@ -130,6 +151,11 @@ body{
 			line-height: 21.09px;
 			text-align: center;
 			margin-top: -10px;
+			@media (min-width: 1200px) {
+				text-wrap: nowrap;
+				font-size: 11px;
+				margin-top: -50px;
+			}
 		}
 		&__button{
 			width: 218px;
@@ -143,6 +169,7 @@ body{
 			margin-top: 20px;
 			cursor: pointer;
 			transition:opacity 0.3s, transform 0.3s;
+			
 		}
 		&__button:hover{
 			opacity: 0.9;
@@ -155,6 +182,10 @@ body{
 	flex-direction: column;
 	width: 375px;
 	height: 440px;
+		@media (min-width: 1200px) {
+			width: 1440px;
+			height: 228.38px;
+		}
 		&__titre{
 			width: 275px;
 			height: 31px;
@@ -162,15 +193,26 @@ body{
 			margin-left: 20px;
 			font-size: 24px;
 			font-weight: bold;
+				@media (min-width: 1200px) {
+					margin-left: 198px;
+				}
 		}
 		&__items{
 			display: flex;
 			flex-direction: column;
 			gap: 25px;
+				@media (min-width: 1200px) {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: center;
+
+				}
 				&--listItem{
 					width: 335px;
 					height: 72.38px;
 					list-style-type: none;
+					cursor: pointer;
 						button{
 								span {
 									@include span-buttons-list
@@ -195,6 +237,10 @@ body{
 	width: 375px;
 	height: 1230px;
 	background: $primary;
+	@media (min-width: 1200px) {
+		width: 1440px;
+		height: 730px;
+	}
 		h2{
 			width: 275px;
 			height: 48px;
@@ -203,79 +249,101 @@ body{
 			margin-top: 50px;
 			margin-left: -60px;
 			margin-bottom: -20px;
+				@media (min-width: 1200px) {
+					width: 1440px;
+					margin-left: 400px;
+				}
 		}
-		a{
-			text-decoration: none;
-			color: inherit;
-				article{
-					display: flex;
-					flex-direction: column;
-					width: 340px;
-					height: 251px;
-					border-radius: 15px;
-					background-color: white;
-					overflow: hidden;
-						img{
-							position: relative;
-							width: 340px;
-							height: 231px;
-							clip-path: inset(55px 0 0 0);
-							border-radius: 15px 15px 0 0; 
-							margin-top: -57px;
-							object-fit: cover;
-						}
-						div{
-							position: absolute;
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							align-self: flex-end;
-							margin-top: 10px;
-							margin-right: 10px;
-							width: 80px;
-							height: 29px;
-							background: rgba(153, 226, 208, 1);
-							box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-							font-size: 14px;
-							font-weight: 500;
-							color: rgba(0, 135, 102, 1);
-						}
-						h3{
-							width: 267px;
-							height: 20px;
-							font-size: 18px;
-							font-weight: bold;
-							margin-left: 15px;
-							margin-top: 15px;
-						}
-						p{
-							width: 247px;
-							height: 24px;
-							font-size: 16px;
-							margin-left: 15px;
-							margin-top: -10px;
-						}
-						i{
-							display: flex;
-								align-self: flex-end;
+		div{
+			@media (min-width: 1200px) {
+				width: 1080px;
+				height: 602px;
+				gap: 100px;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+			}
+			a{
+				text-decoration: none;
+				color: inherit;
+					article{
+						display: flex;
+						flex-direction: column;
+						width: 340px;
+						height: 251px;
+						border-radius: 15px;
+						background-color: white;
+						overflow: hidden;
+							@media (min-width: 1200px) {
+								width: 472px;
+								height: 251px;
+							}
+							img{
+								position: relative;
+								width: 340px;
+								height: 231px;
+								clip-path: inset(55px 0 0 0);
+								border-radius: 15px 15px 0 0; 
+								margin-top: -57px;
+								object-fit: cover;
+									@media (min-width: 1200px) {
+										width: 492px;
+									}
+							}
+							div{
+								position: absolute;
+								display: flex;
 								align-items: center;
 								justify-content: center;
-								margin-top: -61px;
-								margin-right: 30px;
-								font-size: 25px;
-								opacity: 0.9;
-								color: black;
-								background-color: transparent;
-								--webkit-text-stroke: 1px black;
-								transition: all 0.3s ease;
-						}
-						.fa-solid{
-							background: $color-buttons;
-							-webkit-background-clip: text; /* برای مرورگرهای WebKit (مثل Chrome و Safari) */
-							background-clip: text; /* برای سایر مرورگرها */
-							color: transparent; /* باعث می‌شود رنگ معمولی متن (آیکون) شفاف شود */
-						}
-				}
+								align-self: flex-end;
+								margin-top: 10px;
+								margin-right: 10px;
+								width: 80px;
+								height: 29px;
+								background: rgba(153, 226, 208, 1);
+								box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+								font-size: 14px;
+								font-weight: 500;
+								color: rgba(0, 135, 102, 1);
+							}
+							h3{
+								width: 267px;
+								height: 20px;
+								font-size: 18px;
+								font-weight: bold;
+								margin-left: 15px;
+								margin-top: 15px;
+							}
+							p{
+								width: 247px;
+								height: 24px;
+								font-size: 16px;
+								margin-left: 15px;
+								margin-top: -10px;
+							}
+							i{
+								display: flex;
+									align-self: flex-end;
+									align-items: center;
+									justify-content: center;
+									margin-top: -61px;
+									margin-right: 30px;
+									font-size: 25px;
+									opacity: 0.9;
+									color: black;
+									background-color: transparent;
+									--webkit-text-stroke: 1px black;
+									transition: all 0.3s ease;
+							}
+							.fa-solid{
+								background: $color-buttons;
+								-webkit-background-clip: text; /* برای مرورگرهای WebKit (مثل Chrome و Safari) */
+								background-clip: text; /* برای سایر مرورگرها */
+								color: transparent; /* باعث می‌شود رنگ معمولی متن (آیکون) شفاف شود */
+							}
+					}
+			}
 		}
 }
 
@@ -283,6 +351,13 @@ footer{
 	width: 375px;
 	height: 207px;
 	background: rgba(53, 53, 53, 1);
+		@media (min-width: 1200px) {
+			display: flex;
+			flex-direction: row;
+			width: 1440px;
+			height: 114px;
+			position: relative;
+		}
 		h2{
 			color: white;
 			width: 139px;
@@ -296,11 +371,23 @@ footer{
 			padding-bottom: 20px;
 			font-weight: bold;
 			-webkit-text-stroke: 1px;
+				@media (min-width: 1200px) {
+					margin-left: 150px;
+					position: absolute;
+					right: 80px;
+					bottom: -15px;
+				}
 		}
 		div{
 			width: 205px;
 			height: 115px;
 			margin-top: -18px;
+				@media (min-width: 1200px) {
+					display: flex;
+					flex-direction: row;
+					margin-top: 77px;
+					margin-left: 560px;
+				}
 				p{
 					display: flex;
 					flex-direction: column;
