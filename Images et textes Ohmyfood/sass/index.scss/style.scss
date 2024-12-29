@@ -67,7 +67,8 @@ body{
     padding: 0 20px;
     box-sizing: border-box;
 		@media (min-width: 1200px) {
-			max-width: 1440px;
+			max-width: 1270px;
+			margin: 0;
 		}
 }
 
@@ -76,7 +77,8 @@ body{
 	width: 375px;
 	height: 63px;
 		@media (min-width: 1200px) {
-			width: 1440px;
+			// width: 1440px;
+			width: 1270px;
 		}
 }
 
@@ -110,7 +112,7 @@ body{
 			color: $dark-gray
 		}
 		@media (min-width: 1200px) {
-			width: 1440px;
+			width: 1270px;
 			box-shadow: none;
 		}
 	}
@@ -124,7 +126,7 @@ body{
 	width: 375px;
 	height: 300px;
 		@media (min-width: 1200px) {
-			width: 1440px;
+			width: 1270px;
 			margin-top: 0;
 			height: 230px;
 		}
@@ -183,7 +185,7 @@ body{
 	width: 375px;
 	height: 440px;
 		@media (min-width: 1200px) {
-			width: 1440px;
+			width: 1270px;
 			height: 228.38px;
 		}
 		&__titre{
@@ -194,7 +196,7 @@ body{
 			font-size: 24px;
 			font-weight: bold;
 				@media (min-width: 1200px) {
-					margin-left: 198px;
+					margin-left: 112px;
 				}
 		}
 		&__items{
@@ -212,8 +214,8 @@ body{
 					width: 335px;
 					height: 72.38px;
 					list-style-type: none;
-					cursor: pointer;
 						button{
+							cursor: pointer !important;
 								span {
 									@include span-buttons-list
 								}
@@ -235,10 +237,10 @@ body{
 	align-items: center;
 	gap: 20px;
 	width: 375px;
-	height: 1230px;
+	height: 1170px;
 	background: $primary;
 	@media (min-width: 1200px) {
-		width: 1440px;
+		width: 1270px;
 		height: 730px;
 	}
 		h2{
@@ -250,8 +252,8 @@ body{
 			margin-left: -60px;
 			margin-bottom: -20px;
 				@media (min-width: 1200px) {
-					width: 1440px;
-					margin-left: 400px;
+					width: 170px;
+					margin-left: -870px;
 				}
 		}
 		div{
@@ -354,7 +356,7 @@ footer{
 		@media (min-width: 1200px) {
 			display: flex;
 			flex-direction: row;
-			width: 1440px;
+			width: 1270px;
 			height: 114px;
 			position: relative;
 		}
@@ -374,7 +376,7 @@ footer{
 				@media (min-width: 1200px) {
 					margin-left: 150px;
 					position: absolute;
-					right: 80px;
+					right: 0;
 					bottom: -15px;
 				}
 		}
@@ -386,7 +388,7 @@ footer{
 					display: flex;
 					flex-direction: row;
 					margin-top: 77px;
-					margin-left: 560px;
+					margin-left: 470px;
 				}
 				p{
 					display: flex;

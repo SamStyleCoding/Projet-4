@@ -26,7 +26,8 @@ body {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1440px;
+    max-width: 1270px;
+    margin: 0;
   }
 }
 
@@ -36,7 +37,7 @@ body {
 }
 @media (min-width: 1200px) {
   .headers {
-    width: 1440px;
+    width: 1270px;
   }
 }
 
@@ -70,7 +71,7 @@ body {
 }
 @media (min-width: 1200px) {
   .location {
-    width: 1440px;
+    width: 1270px;
     box-shadow: none;
   }
 }
@@ -86,7 +87,7 @@ body {
 }
 @media (min-width: 1200px) {
   .titre {
-    width: 1440px;
+    width: 1270px;
     margin-top: 0;
     height: 230px;
   }
@@ -150,7 +151,7 @@ body {
 }
 @media (min-width: 1200px) {
   .list {
-    width: 1440px;
+    width: 1270px;
     height: 228.38px;
   }
 }
@@ -164,7 +165,7 @@ body {
 }
 @media (min-width: 1200px) {
   .list__titre {
-    margin-left: 198px;
+    margin-left: 112px;
   }
 }
 .list__items {
@@ -184,9 +185,9 @@ body {
   width: 335px;
   height: 72.38px;
   list-style-type: none;
-  cursor: pointer;
 }
 .list__items--listItem button {
+  cursor: pointer !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,12 +234,12 @@ body {
   align-items: center;
   gap: 20px;
   width: 375px;
-  height: 1230px;
+  height: 1170px;
   background: rgb(246, 246, 246);
 }
 @media (min-width: 1200px) {
   .cards {
-    width: 1440px;
+    width: 1270px;
     height: 730px;
   }
 }
@@ -253,8 +254,8 @@ body {
 }
 @media (min-width: 1200px) {
   .cards h2 {
-    width: 1440px;
-    margin-left: 400px;
+    width: 170px;
+    margin-left: -870px;
   }
 }
 @media (min-width: 1200px) {
@@ -364,7 +365,7 @@ footer {
   footer {
     display: flex;
     flex-direction: row;
-    width: 1440px;
+    width: 1270px;
     height: 114px;
     position: relative;
   }
@@ -387,7 +388,7 @@ footer h2 {
   footer h2 {
     margin-left: 150px;
     position: absolute;
-    right: 80px;
+    right: 0;
     bottom: -15px;
   }
 }
@@ -401,7 +402,7 @@ footer div {
     display: flex;
     flex-direction: row;
     margin-top: 77px;
-    margin-left: 560px;
+    margin-left: 470px;
   }
 }
 footer div p {
