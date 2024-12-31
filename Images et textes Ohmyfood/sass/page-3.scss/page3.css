@@ -26,7 +26,7 @@ body {
   width: 375px;
   height: 63px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .headers {
     width: 1270px;
     height: 96.34px;
@@ -60,7 +60,7 @@ body {
   font-size: 19px;
   padding-right: 105px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .page3-log__icon-header .fa-arrow-left {
     margin-left: -900px;
   }
@@ -75,7 +75,7 @@ body {
   margin-top: 0;
   position: relative;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .page3-img {
     width: 1270px;
     height: 430px;
@@ -98,7 +98,7 @@ section {
   background: rgb(246, 246, 246);
   border-radius: 40px 40px 0 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section {
     margin-left: 110px;
     width: 1055px;
@@ -110,7 +110,7 @@ section div {
   display: flex;
   flex-direction: row;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section div {
     margin-bottom: 20px;
   }
@@ -127,7 +127,7 @@ section div h1 {
   margin-left: 90px;
   margin-top: 35px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section div h1 {
     margin-left: 180px;
     margin-bottom: 50px;
@@ -142,7 +142,7 @@ section div div {
   margin-top: 43px;
   margin-right: 70px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section div div {
     margin-left: -20px;
   }
@@ -159,7 +159,7 @@ section article {
   width: 349px;
   height: 333px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article {
     display: flex;
     flex-direction: column;
@@ -167,12 +167,12 @@ section article {
     align-items: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article .plats {
     margin-bottom: 0;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article .desserts {
     margin-bottom: 0;
   }
@@ -181,7 +181,7 @@ section article div {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div {
     width: 634px;
   }
@@ -193,7 +193,7 @@ section article div p {
   font-weight: 300;
   color: rgb(0, 0, 0);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div p {
     padding-right: 361px;
   }
@@ -204,13 +204,13 @@ section article div div {
   margin-top: -15px;
   border: 3px solid rgb(153, 226, 208);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div div {
     margin-left: -518px;
     margin-bottom: -20px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div {
     display: flex;
     justify-content: center;
@@ -223,7 +223,7 @@ section article div ul {
   align-items: center;
   gap: 10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul {
     width: 634px;
     height: 270px;
@@ -239,8 +239,9 @@ section article div ul .list-item-1 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-1 {
     width: 634px;
   }
@@ -261,7 +262,7 @@ section article div ul .list-item-1 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-1 p {
     text-wrap: nowrap;
   }
@@ -270,7 +271,7 @@ section article div ul .list-item-1 p span {
   padding-left: 46px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-1 p span {
     padding-left: 326px;
   }
@@ -289,9 +290,10 @@ section article div ul .list-item-1 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-1 label div {
-    margin-left: 634px;
+    right: 140px;
+    height: 60px;
   }
 }
 section article div ul .list-item-1 label div span {
@@ -330,6 +332,11 @@ section article div ul .list-item-1 .trigger-1 {
 section article div ul .list-item-1 .toggle-checkbox-1:checked + .trigger-1 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-1 .toggle-checkbox-1:hover + .trigger-1 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-2 {
   position: relative;
   margin-left: -40px;
@@ -341,7 +348,7 @@ section article div ul .list-item-2 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-2 {
     width: 634px;
   }
@@ -362,7 +369,7 @@ section article div ul .list-item-2 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-2 p {
     text-wrap: nowrap;
   }
@@ -371,7 +378,7 @@ section article div ul .list-item-2 p .montant-35 {
   padding-left: 109px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-2 p .montant-35 {
     padding-left: 390px;
   }
@@ -390,9 +397,10 @@ section article div ul .list-item-2 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-2 label div {
     margin-left: 634px;
+    height: 60px;
   }
 }
 section article div ul .list-item-2 label div span {
@@ -431,6 +439,11 @@ section article div ul .list-item-2 .trigger-2 {
 section article div ul .list-item-2 .toggle-checkbox-2:checked + .trigger-2 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-2 .toggle-checkbox-2:hover + .trigger-2 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-3 {
   position: relative;
   margin-left: -40px;
@@ -442,7 +455,7 @@ section article div ul .list-item-3 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-3 {
     width: 634px;
   }
@@ -464,7 +477,7 @@ section article div ul .list-item-3 p {
   padding-left: 12px;
   text-wrap: nowrap;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-3 p {
     text-wrap: nowrap;
   }
@@ -473,7 +486,7 @@ section article div ul .list-item-3 p .montant-20 {
   padding-left: 114px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-3 p .montant-20 {
     padding-left: 394px;
   }
@@ -492,9 +505,10 @@ section article div ul .list-item-3 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-3 label div {
     margin-left: 634px;
+    height: 60px;
   }
 }
 section article div ul .list-item-3 label div span {
@@ -533,6 +547,11 @@ section article div ul .list-item-3 .trigger-3 {
 section article div ul .list-item-3 .toggle-checkbox-3:checked + .trigger-3 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-3 .toggle-checkbox-3:hover + .trigger-3 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-4 {
   position: relative;
   margin-left: -40px;
@@ -544,7 +563,7 @@ section article div ul .list-item-4 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-4 {
     width: 634px;
   }
@@ -565,7 +584,7 @@ section article div ul .list-item-4 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-4 p {
     text-wrap: nowrap;
   }
@@ -574,7 +593,7 @@ section article div ul .list-item-4 p .montant--35 {
   padding-left: 92px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-4 p .montant--35 {
     padding-left: 371px;
   }
@@ -593,9 +612,10 @@ section article div ul .list-item-4 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-4 label div {
     margin-left: 634px;
+    height: 60px;
   }
 }
 section article div ul .list-item-4 label div span {
@@ -634,6 +654,11 @@ section article div ul .list-item-4 .trigger-4 {
 section article div ul .list-item-4 .toggle-checkbox-4:checked + .trigger-4 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-4 .toggle-checkbox-4:hover + .trigger-4 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-5 {
   position: relative;
   margin-left: -40px;
@@ -644,8 +669,9 @@ section article div ul .list-item-5 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-5 {
     width: 634px;
   }
@@ -666,7 +692,7 @@ section article div ul .list-item-5 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-5 p {
     text-wrap: nowrap;
   }
@@ -675,7 +701,7 @@ section article div ul .list-item-5 p .montant-40 {
   padding-left: 109px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-5 p .montant-40 {
     padding-left: 389px;
   }
@@ -694,7 +720,7 @@ section article div ul .list-item-5 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-5 label div {
     margin-left: 634px;
   }
@@ -735,6 +761,11 @@ section article div ul .list-item-5 .trigger-5 {
 section article div ul .list-item-5 .toggle-checkbox-5:checked + .trigger-5 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-5 .toggle-checkbox-5:hover + .trigger-5 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-6 {
   position: relative;
   margin-left: -40px;
@@ -746,7 +777,7 @@ section article div ul .list-item-6 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-6 {
     width: 634px;
   }
@@ -767,7 +798,7 @@ section article div ul .list-item-6 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-6 p {
     text-wrap: nowrap;
   }
@@ -776,7 +807,7 @@ section article div ul .list-item-6 p .montant-list-1 {
   padding-left: 147px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-6 p .montant-list-1 {
     padding-left: 428px;
   }
@@ -795,9 +826,10 @@ section article div ul .list-item-6 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-6 label div {
     margin-left: 634px;
+    height: 69.5px;
   }
 }
 section article div ul .list-item-6 label div span {
@@ -836,6 +868,11 @@ section article div ul .list-item-6 .trigger-6 {
 section article div ul .list-item-6 .toggle-checkbox-6:checked + .trigger-6 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-6 .toggle-checkbox-6:hover + .trigger-6 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-7 {
   position: relative;
   margin-left: -40px;
@@ -846,8 +883,9 @@ section article div ul .list-item-7 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-7 {
     width: 634px;
   }
@@ -869,7 +907,7 @@ section article div ul .list-item-7 p {
   padding-left: 12px;
   text-wrap: nowrap;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-7 p {
     text-wrap: nowrap;
   }
@@ -878,7 +916,7 @@ section article div ul .list-item-7 p .montant-list-2 {
   padding-left: 72px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-7 p .montant-list-2 {
     padding-left: 352px;
   }
@@ -897,7 +935,7 @@ section article div ul .list-item-7 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-7 label div {
     margin-left: 634px;
   }
@@ -938,6 +976,11 @@ section article div ul .list-item-7 .trigger-7 {
 section article div ul .list-item-7 .toggle-checkbox-7:checked + .trigger-7 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-7 .toggle-checkbox-7:hover + .trigger-7 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-8 {
   position: relative;
   margin-left: -40px;
@@ -949,7 +992,7 @@ section article div ul .list-item-8 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-8 {
     width: 634px;
   }
@@ -971,7 +1014,7 @@ section article div ul .list-item-8 p {
   padding-left: 12px;
   text-wrap: nowrap;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-8 p {
     text-wrap: nowrap;
   }
@@ -980,7 +1023,7 @@ section article div ul .list-item-8 p .montant-list-3 {
   padding-left: 29px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-8 p .montant-list-3 {
     padding-left: 307px;
   }
@@ -999,9 +1042,10 @@ section article div ul .list-item-8 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-8 label div {
     margin-left: 634px;
+    height: 69.5px;
   }
 }
 section article div ul .list-item-8 label div span {
@@ -1040,6 +1084,11 @@ section article div ul .list-item-8 .trigger-8 {
 section article div ul .list-item-8 .toggle-checkbox-8:checked + .trigger-8 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-8 .toggle-checkbox-8:hover + .trigger-8 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-9 {
   position: relative;
   margin-left: -40px;
@@ -1050,8 +1099,9 @@ section article div ul .list-item-9 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-9 {
     width: 634px;
   }
@@ -1072,7 +1122,7 @@ section article div ul .list-item-9 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-9 p {
     text-wrap: nowrap;
   }
@@ -1081,7 +1131,7 @@ section article div ul .list-item-9 p .montant-list-4 {
   padding-left: 132px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-9 p .montant-list-4 {
     padding-left: 410px;
   }
@@ -1100,7 +1150,7 @@ section article div ul .list-item-9 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-9 label div {
     margin-left: 634px;
   }
@@ -1141,6 +1191,11 @@ section article div ul .list-item-9 .trigger-9 {
 section article div ul .list-item-9 .toggle-checkbox-9:checked + .trigger-9 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-9 .toggle-checkbox-9:hover + .trigger-9 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section article div ul .list-item-10 {
   position: relative;
   margin-left: -40px;
@@ -1152,7 +1207,7 @@ section article div ul .list-item-10 {
   list-style-type: none;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-10 {
     width: 634px;
   }
@@ -1173,7 +1228,7 @@ section article div ul .list-item-10 p {
   font-size: 14px;
   padding-left: 12px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-10 p {
     text-wrap: nowrap;
   }
@@ -1182,7 +1237,7 @@ section article div ul .list-item-10 p .montant-list-5 {
   padding-left: 206px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-10 p .montant-list-5 {
     padding-left: 484px;
   }
@@ -1201,9 +1256,10 @@ section article div ul .list-item-10 label div {
   border-radius: 0px 15px 15px 0px;
   opacity: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section article div ul .list-item-10 label div {
     margin-left: 634px;
+    height: 69.5px;
   }
 }
 section article div ul .list-item-10 label div span {
@@ -1242,6 +1298,11 @@ section article div ul .list-item-10 .trigger-10 {
 section article div ul .list-item-10 .toggle-checkbox-10:checked + .trigger-10 div {
   animation: slideIn 0.5s forwards;
 }
+@media (min-width: 1024px) {
+  section article div ul .list-item-10 .toggle-checkbox-10:hover + .trigger-10 div {
+    animation: slideIn 0.5s forwards;
+  }
+}
 section button {
   width: 186px;
   height: 50px;
@@ -1256,7 +1317,7 @@ section button {
   transition: opacity 0.3s, transform 0.3s;
   cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   section button {
     margin-top: 10px;
   }
@@ -1272,7 +1333,7 @@ footer {
   background: rgb(53, 53, 53);
   margin-top: 1180px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer {
     display: flex;
     flex-direction: row;
@@ -1296,7 +1357,7 @@ footer h2 {
   font-weight: bold;
   -webkit-text-stroke: 1px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer h2 {
     margin-left: 150px;
     position: absolute;
@@ -1309,7 +1370,7 @@ footer div {
   height: 115px;
   margin-top: -18px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer div {
     display: flex;
     flex-direction: row;

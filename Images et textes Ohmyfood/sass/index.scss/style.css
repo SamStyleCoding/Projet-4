@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   body {
     margin: 0;
   }
@@ -24,7 +24,7 @@ body {
   padding: 0 20px;
   box-sizing: border-box;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 1270px;
     margin: 0;
@@ -35,7 +35,7 @@ body {
   width: 375px;
   height: 63px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .headers {
     width: 1270px;
   }
@@ -69,7 +69,7 @@ body {
   padding-right: 25px;
   color: rgb(53, 53, 53);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .location {
     width: 1270px;
     box-shadow: none;
@@ -85,7 +85,7 @@ body {
   width: 375px;
   height: 300px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .titre {
     width: 1270px;
     margin-top: 0;
@@ -101,7 +101,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .titre__page {
     text-wrap: nowrap;
   }
@@ -118,7 +118,7 @@ body {
   text-align: center;
   margin-top: -10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .titre__p {
     text-wrap: nowrap;
     font-size: 11px;
@@ -149,7 +149,7 @@ body {
   width: 375px;
   height: 440px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .list {
     width: 1270px;
     height: 228.38px;
@@ -163,7 +163,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .list__titre {
     margin-left: 112px;
   }
@@ -173,7 +173,7 @@ body {
   flex-direction: column;
   gap: 25px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .list__items {
     display: flex;
     flex-direction: row;
@@ -237,7 +237,7 @@ body {
   height: 1170px;
   background: rgb(246, 246, 246);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .cards {
     width: 1270px;
     height: 730px;
@@ -252,13 +252,13 @@ body {
   margin-left: -60px;
   margin-bottom: -20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .cards h2 {
     width: 170px;
     margin-left: -870px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .cards div {
     width: 1080px;
     height: 602px;
@@ -282,7 +282,7 @@ body {
   background-color: white;
   overflow: hidden;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .cards div a article {
     width: 472px;
     height: 251px;
@@ -299,7 +299,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .cards div a article img {
     width: 492px;
   }
@@ -361,7 +361,7 @@ footer {
   height: 207px;
   background: rgb(53, 53, 53);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer {
     display: flex;
     flex-direction: row;
@@ -384,7 +384,7 @@ footer h2 {
   font-weight: bold;
   -webkit-text-stroke: 1px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer h2 {
     margin-left: 150px;
     position: absolute;
@@ -397,7 +397,7 @@ footer div {
   height: 115px;
   margin-top: -18px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   footer div {
     display: flex;
     flex-direction: row;

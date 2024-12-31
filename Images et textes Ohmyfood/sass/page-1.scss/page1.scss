@@ -32,7 +32,7 @@ body{
 	justify-content: center;
 	width: 375px;
 	height: 63px;
-		@media (min-width: 1200px) {
+		@media (min-width: 1024px) {
 			width: 1270px;
 			height: 96.34px;
 		}
@@ -62,7 +62,7 @@ body{
 					color: rgba(53, 53, 53, 1);
 					font-size: 19px;
 					padding-right: 105px;
-						@media (min-width: 1200px) {
+						@media (min-width: 1024px) {
 							margin-left: -900px;
 						}
 			}
@@ -77,7 +77,7 @@ body{
 	width: 375px;
 	margin-top: 0;
 	position: relative;
-	@media (min-width: 1200px) {
+	@media (min-width: 1024px) {
 		width: 1270px;
 		height: 430px;
 		margin-top: -91px;
@@ -96,7 +96,7 @@ section{
 	height: 1170px;
 	background: $primary;
 	border-radius: 40px 40px 0 0;
-		@media (min-width: 1200px) {
+		@media (min-width: 1024px) {
 			margin-left: 110px;
 			width: 1055px;
 			height: 1220px;
@@ -116,7 +116,7 @@ section{
 					color: rgba(16, 16, 16, 1);
 					margin-left: 90px;
 					margin-top: 35px;
-					@media (min-width: 1200px) {
+					@media (min-width: 1024px) {
 						margin-left: 180px;
 						margin-bottom: 50px;
 					}
@@ -129,7 +129,7 @@ section{
 					height: 21px;
 					margin-top: 43px;
 					margin-right: 70px;
-						@media (min-width: 1200px) {
+						@media (min-width: 1024px) {
 							margin-left: -20px;
 						}
 						i{
@@ -142,7 +142,7 @@ section{
 		article{
 			width: 349px;
 			height: 333px;
-				@media (min-width: 1200px) {
+				@media (min-width: 1024px) {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
@@ -151,7 +151,7 @@ section{
 				div{
 					display: flex;
 					flex-direction: column;
-						@media (min-width: 1200px) {
+						@media (min-width: 1024px) {
 							width: 634px;
 						}
 					p{
@@ -160,7 +160,7 @@ section{
 						font-size: 17px;
 						font-weight: 300;
 						color: rgba(0, 0, 0, 1);
-							@media (min-width: 1200px) {
+							@media (min-width: 1024px) {
 								padding-right: 361px;
 							}
 					}
@@ -169,14 +169,14 @@ section{
 						height: 0;
 						margin-top: -15px;
 						border: 3px solid rgba(153, 226, 208, 1);
-							@media (min-width: 1200px) {
+							@media (min-width: 1024px) {
 								margin-left: -518px;
 								margin-bottom: -20px;
 							}
 					}
 				}
 				div{
-					@media (min-width: 1200px) {
+					@media (min-width: 1024px) {
 						display: flex;
 						justify-content: center;
 						align-items: center;
@@ -186,7 +186,7 @@ section{
 						flex-direction: column;
 						align-items: center;
 						gap: 10px;
-							@media (min-width: 1200px) {
+							@media (min-width: 1024px) {
 								width: 634px;
 								height: 270px;
 								justify-content: center;
@@ -201,7 +201,7 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -219,63 +219,15 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
 											span{
 												padding-left: 158px;
 												font-weight: bold;
 												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
+													@media (min-width: 1024px) {
 														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -293,8 +245,9 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
+													height: 69.5px;
 												}
 												span{
 													display: flex;
@@ -340,9 +293,14 @@ section{
 									// 	}
 									//   }
 									.toggle-checkbox-1:checked + .trigger-1 div {
-										animation: slideIn 0.5s forwards; 
+										animation: slideIn 0.5s forwards;
 									}
-									// .toggle-checkbox:checked + .trigger p span{
+									@media (min-width: 1024px) {
+										.toggle-checkbox-1:hover + .trigger-1 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
+									// .toggle-checkbox:checked + .trigger .list-item-1 p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
 							}
@@ -355,8 +313,9 @@ section{
 								background: rgba(255, 255, 255, 1);
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
+								overflow: hidden;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -374,65 +333,16 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
 											}
 											.montant-35{
 												padding-left: 108px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 396px;
 													}
 											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
-													}
-											}
 									}
 									label{
 										div{
@@ -448,7 +358,7 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
 												}
 												span{
@@ -497,6 +407,11 @@ section{
 									.toggle-checkbox-2:checked + .trigger-2 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-2:hover + .trigger-2 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -511,7 +426,7 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -529,63 +444,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
 											}	
 											.montant-20{
 												padding-left: 60px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -603,8 +469,9 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
+													height: 69.5px;
 												}
 												span{
 													display: flex;
@@ -652,6 +519,11 @@ section{
 									.toggle-checkbox-3:checked + .trigger-3 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-3:hover + .trigger-3 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -666,7 +538,8 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+								overflow: hidden;
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -684,63 +557,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
 											}
 											.montant-40{
 												padding-left: 29px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -758,7 +582,7 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
 												}
 												span{
@@ -807,6 +631,11 @@ section{
 									.toggle-checkbox-4:checked + .trigger-4 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-4:hover + .trigger-4 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -821,7 +650,7 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -839,63 +668,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
 											}
 											.montant-list{
 												padding-left: 54px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -913,8 +693,9 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
+													height: 69.5px;
 												}
 												span{
 													display: flex;
@@ -962,6 +743,11 @@ section{
 									.toggle-checkbox-5:checked + .trigger-5 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-5:hover + .trigger-5 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -976,7 +762,8 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+								overflow: hidden;
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -994,63 +781,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
 											}
 											.montant-list-1{
 												padding-left: 211px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -1068,7 +806,7 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
 												}
 												span{
@@ -1117,6 +855,11 @@ section{
 									.toggle-checkbox-6:checked + .trigger-6 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-6:hover + .trigger-6 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -1131,7 +874,7 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -1149,63 +892,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
 											}
 											.montant-list-2{
 												padding-left: 243px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -1223,8 +917,9 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
+													height: 69.5px;
 												}
 												span{
 													display: flex;
@@ -1272,6 +967,11 @@ section{
 									.toggle-checkbox-7:checked + .trigger-7 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-7:hover + .trigger-7 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -1286,7 +986,8 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+								overflow: hidden;
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -1304,63 +1005,14 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
 											}
 											.montant-list-3{
 												padding-left: 76px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 358px;
-													}
-											}
-											.montant-list-4{
-												padding-left: 46px;
-													@media (min-width: 1200px) {
-														padding-left: 327px;
 													}
 											}
 									}
@@ -1378,7 +1030,7 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
 												}
 												span{
@@ -1427,6 +1079,11 @@ section{
 									.toggle-checkbox-8:checked + .trigger-8 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-8:hover + .trigger-8 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -1441,7 +1098,7 @@ section{
 								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
 								list-style-type: none;
 								cursor: pointer;
-									@media (min-width: 1200px) {
+									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
@@ -1459,62 +1116,13 @@ section{
 										margin-top: -10px;
 										font-size: 14px;
 										padding-left: 12px;
-											@media (min-width: 1200px) {
+											@media (min-width: 1024px) {
 												text-wrap: nowrap;
-											}
-											span{
-												padding-left: 158px;
-												font-weight: bold;
-												// transition: transform 1s ease;
-													@media (min-width: 1200px) {
-														padding-left: 448px;
-													}
-											}
-											.montant-35{
-												padding-left: 108px;
-													@media (min-width: 1200px) {
-														padding-left: 396px;
-													}
-											}	
-											.montant-20{
-												padding-left: 60px;
-													@media (min-width: 1200px) {
-														padding-left: 347px;
-													}
-											}
-											.montant-40{
-												padding-left: 29px;
-													@media (min-width: 1200px) {
-														padding-left: 314px;
-													}
-											}
-											.montant-list{
-												padding-left: 54px;
-													@media (min-width: 1200px) {
-														padding-left: 338px;
-													}
-											}
-											.montant-list-1{
-												padding-left: 211px;
-													@media (min-width: 1200px) {
-														padding-left: 495px;
-													}
-											}
-											.montant-list-2{
-												padding-left: 243px;
-													@media (min-width: 1200px) {
-														padding-left: 527px;
-													}
-											}
-											.montant-list-3{
-												padding-left: 76px;
-													@media (min-width: 1200px) {
-														padding-left: 358px;
-													}
 											}
 											.montant-list-4{
 												padding-left: 46px;
-													@media (min-width: 1200px) {
+												font-weight: bold;
+													@media (min-width: 1024px) {
 														padding-left: 327px;
 													}
 											}
@@ -1533,8 +1141,9 @@ section{
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
-												@media (min-width: 1200px) {
+												@media (min-width: 1024px) {
 													margin-left: 634px;
+													height: 69.5px;
 												}
 												span{
 													display: flex;
@@ -1582,6 +1191,11 @@ section{
 									.toggle-checkbox-9:checked + .trigger-9 div {
 										animation: slideIn 0.5s forwards; 
 									}
+									@media (min-width: 1024px) {
+										.toggle-checkbox-9:hover + .trigger-9 div {
+											animation: slideIn 0.5s forwards;
+										}
+									}
 									// .toggle-checkbox:checked + .trigger p span{
 									// 	animation: movePrice 0.5s forwards; 
 									// }
@@ -1602,7 +1216,7 @@ section{
 			border-radius: 25px;
 			transition:opacity 0.3s, transform 0.3s;
 			cursor: pointer;
-				@media (min-width: 1200px) {
+				@media (min-width: 1024px) {
 					margin-top: 10px;
 				}
 		}
@@ -1617,7 +1231,7 @@ footer{
 	height: 207px;
 	background: rgba(53, 53, 53, 1);
 	margin-top: 1110px;
-		@media (min-width: 1200px) {
+		@media (min-width: 1024px) {
 			display: flex;
 			flex-direction: row;
 			margin-top: 1174px;
@@ -1638,7 +1252,7 @@ footer{
 			padding-bottom: 20px;
 			font-weight: bold;
 			-webkit-text-stroke: 1px;
-				@media (min-width: 1200px) {
+				@media (min-width: 1024px) {
 					margin-left: 150px;
 					position: absolute;
 					right: 0;
@@ -1649,7 +1263,7 @@ footer{
 			width: 205px;
 			height: 115px;
 			margin-top: -18px;
-				@media (min-width: 1200px) {
+				@media (min-width: 1024px) {
 					display: flex;
 					flex-direction: row;
 					margin-top: 77px;
