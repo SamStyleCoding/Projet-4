@@ -231,6 +231,7 @@ section article div ul {
   }
 }
 section article div ul .list-item-1 {
+  position: relative;
   margin-left: -40px;
   width: 349px;
   height: 69px;
@@ -283,7 +284,7 @@ section article div ul .list-item-1 label div {
   position: absolute;
   background: rgb(153, 226, 208);
   width: 56px;
-  right: -57px;
+  right: -70px;
   height: 69px;
   border: none;
   margin-top: -1px;
@@ -292,7 +293,6 @@ section article div ul .list-item-1 label div {
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-1 label div {
-    right: 140px;
     height: 60px;
   }
 }
@@ -347,6 +347,7 @@ section article div ul .list-item-2 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-2 {
@@ -454,6 +455,7 @@ section article div ul .list-item-3 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-3 {
@@ -475,7 +477,6 @@ section article div ul .list-item-3 p {
   margin-top: -10px;
   font-size: 14px;
   padding-left: 12px;
-  text-wrap: nowrap;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-3 p {
@@ -562,6 +563,7 @@ section article div ul .list-item-4 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-4 {
@@ -776,6 +778,7 @@ section article div ul .list-item-6 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-6 {
@@ -905,7 +908,6 @@ section article div ul .list-item-7 p {
   margin-top: -10px;
   font-size: 14px;
   padding-left: 12px;
-  text-wrap: nowrap;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-7 p {
@@ -991,6 +993,7 @@ section article div ul .list-item-8 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-8 {
@@ -1012,7 +1015,6 @@ section article div ul .list-item-8 p {
   margin-top: -10px;
   font-size: 14px;
   padding-left: 12px;
-  text-wrap: nowrap;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-8 p {
@@ -1206,6 +1208,7 @@ section article div ul .list-item-10 {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   cursor: pointer;
+  overflow: hidden;
 }
 @media (min-width: 1024px) {
   section article div ul .list-item-10 {

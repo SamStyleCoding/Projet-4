@@ -7,7 +7,38 @@ $dark-gray: rgba(53, 53, 53, 1);
 $color-buttons: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 
 
+@mixin list-item {
+	position: relative;
+	margin-left: -40px;
+	width: 349px;
+	height: 69px;
+	border-radius: 15px 15px 15px 15px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
+	list-style-type: none;
+	cursor: pointer;
+	overflow: hidden;
+}
 
+@mixin list-item-titre {
+	width: 287px;
+	height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21.09px;
+	margin-top: 12px;
+	padding-left: 12px;
+}
+
+@mixin list-item-p {
+	width: 420px;
+	height: 19px;
+	margin-top: -10px;
+	font-size: 14px;
+	padding-left: 12px;
+}
+
+// ==============================
 
 body{
 	display: flex;
@@ -209,33 +240,15 @@ section{
 								justify-content: center;
 							}
 							.list-item-1{
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
-								overflow: hidden;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -255,14 +268,13 @@ section{
 											position: absolute;
 											background: rgba(153, 226, 208, 1);
 											width: 56px;
-											right: -57px;
+											right: -70px;
 											height: 69px;
 											border: none;
 											margin-top: -1px;
 											border-radius: 0px 15px 15px 0px;
 											opacity: 0;
 												@media (min-width: 1024px) {
-													right: 140px;
 													height: 60px;
 												}
 												span{
@@ -321,33 +333,15 @@ section{
 									// }
 							}
 							.list-item-2{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -433,34 +427,15 @@ section{
 									// }
 							}
 							.list-item-3{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
-										text-wrap: nowrap;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}	
@@ -546,33 +521,15 @@ section{
 									// }
 							}
 							.list-item-4{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -658,34 +615,15 @@ section{
 									// }
 							}
 							.list-item-5{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
-								overflow: hidden;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -770,33 +708,15 @@ section{
 									// }
 							}
 							.list-item-6{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -882,35 +802,15 @@ section{
 									// }
 							}
 							.list-item-7{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
-								overflow: hidden;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
-										text-wrap: nowrap;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -996,34 +896,15 @@ section{
 									// }
 							}
 							.list-item-8{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
-										text-wrap: nowrap;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -1109,34 +990,15 @@ section{
 									// }
 							}
 							.list-item-9{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
-								overflow: hidden;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
@@ -1221,33 +1083,15 @@ section{
 									// }
 							}
 							.list-item-10{
-								position: relative;
-								margin-left: -40px;
-								width: 349px;
-								height: 69px;
-								border-radius: 15px 15px 15px 15px;
-								background: rgba(255, 255, 255, 1);
-								box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1);
-								list-style-type: none;
-								cursor: pointer;
+								@include list-item;
 									@media (min-width: 1024px) {
 										width: 634px;
 									}
 									h2{
-										width: 287px;
-										height: 21px;
-										font-size: 18px;
-										font-weight: 500;
-										line-height: 21.09px;
-										margin-top: 12px;
-										padding-left: 12px;
+										@include list-item-titre;
 									}
 									p{
-										width: 420px;
-										height: 19px;
-										margin-top: -10px;
-										font-size: 14px;
-										padding-left: 12px;
+										@include list-item-p;
 											@media (min-width: 1024px) {
 												text-wrap: nowrap;
 											}
