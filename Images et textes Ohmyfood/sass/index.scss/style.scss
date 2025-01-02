@@ -1,53 +1,13 @@
+@import '../../assets/mix&var-index/mixins/mixin.scss';
+
+@import '../../assets/mix&var-index/variables/variable.scss';
+
+// ==========================
+
 * {
 	font-family: Roboto;
 }
 
-$primary: rgba(246, 246, 246, 1);
-$dark-gray: rgba(53, 53, 53, 1);
-$color-buttons: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-
-
-@mixin buttons-list {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	width: 322.49px;
-	height: 72.38px;
-	border: none;
-	border-radius: 20px 20px 20px 20px;
-	background: rgba(246, 246, 246, 1);
-	box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-	margin-left: -6px;
-	font-size: 16px;
-	font-weight: 500;
-}
-
-@mixin span-buttons-list{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	background: rgba(147, 86, 220, 1);
-	font-size: 14.18px;
-	font-weight: 500;
-	border: none;
-	border-radius: 50%;
-	margin-right: 322px;
-	color: white;
-}
-
-@mixin i-buttons-list{
-	position: absolute;
-	margin-right: 230px;
-	width: 13.02px;
-	height: 19.9px;
-	color: rgba(126, 126, 126, 1);
-}
-
-// ==========================
 body{
 	display: flex;
 	flex-direction: column;
