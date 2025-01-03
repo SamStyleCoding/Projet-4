@@ -1,6 +1,6 @@
 @import '../../assets/mixins/mixin.scss';
 @import '../../assets/variables/variable.scss';
-
+@import '../../assets/animations/animation.scss';
 // ===================================
 
 * {
@@ -254,16 +254,6 @@ section{
 										height: 100%;
 										margin-top: -71px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -347,16 +337,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -441,16 +421,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -534,16 +504,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -628,16 +588,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -721,16 +671,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -815,16 +755,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -908,16 +838,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);
@@ -1002,16 +922,6 @@ section{
 										height: 100%;
 										margin-top: -70px;
 									}
-									@keyframes slideIn {
-										from {
-											width: 0;
-										  opacity: 0;
-										}
-										to {
-											width: 17%;
-										  opacity: 1;
-										}
-									  }
 									//   @keyframes movePrice {
 									// 	from {
 									// 		transform: translateX(0);

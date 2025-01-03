@@ -1,3 +1,13 @@
+@keyframes slideIn {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 17%;
+    opacity: 1;
+  }
+}
 * {
   font-family: Roboto;
 }
@@ -303,16 +313,6 @@ section article div ul .list-item-1 .trigger-1 {
   height: 100%;
   margin-top: -70px;
 }
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
-}
 section article div ul .list-item-1 .toggle-checkbox-1:checked + .trigger-1 div {
   animation: slideIn 0.5s forwards;
 }
@@ -409,16 +409,6 @@ section article div ul .list-item-2 .trigger-2 {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-}
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
 }
 section article div ul .list-item-2 .toggle-checkbox-2:checked + .trigger-2 div {
   animation: slideIn 0.5s forwards;
@@ -518,16 +508,6 @@ section article div ul .list-item-3 .trigger-3 {
   height: 100%;
   margin-top: -70px;
 }
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
-}
 section article div ul .list-item-3 .toggle-checkbox-3:checked + .trigger-3 div {
   animation: slideIn 0.5s forwards;
 }
@@ -624,16 +604,6 @@ section article div ul .list-item-4 .trigger-4 {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-}
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
 }
 section article div ul .list-item-4 .toggle-checkbox-4:checked + .trigger-4 div {
   animation: slideIn 0.5s forwards;
@@ -733,16 +703,6 @@ section article div ul .list-item-5 .trigger-5 {
   height: 100%;
   margin-top: -70px;
 }
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
-}
 section article div ul .list-item-5 .toggle-checkbox-5:checked + .trigger-5 div {
   animation: slideIn 0.5s forwards;
 }
@@ -839,16 +799,6 @@ section article div ul .list-item-6 .trigger-6 {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-}
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
 }
 section article div ul .list-item-6 .toggle-checkbox-6:checked + .trigger-6 div {
   animation: slideIn 0.5s forwards;
@@ -948,16 +898,6 @@ section article div ul .list-item-7 .trigger-7 {
   height: 100%;
   margin-top: -70px;
 }
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
-}
 section article div ul .list-item-7 .toggle-checkbox-7:checked + .trigger-7 div {
   animation: slideIn 0.5s forwards;
 }
@@ -1054,16 +994,6 @@ section article div ul .list-item-8 .trigger-8 {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-}
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
 }
 section article div ul .list-item-8 .toggle-checkbox-8:checked + .trigger-8 div {
   animation: slideIn 0.5s forwards;
@@ -1162,16 +1092,6 @@ section article div ul .list-item-9 .trigger-9 {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-}
-@keyframes slideIn {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 17%;
-    opacity: 1;
-  }
 }
 section article div ul .list-item-9 .toggle-checkbox-9:checked + .trigger-9 div {
   animation: slideIn 0.5s forwards;
