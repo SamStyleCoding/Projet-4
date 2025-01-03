@@ -1,6 +1,5 @@
-@import '../../assets/mix&var-index/mixins/mixin.scss';
-
-@import '../../assets/mix&var-index/variables/variable.scss';
+@import '../../assets/mixins/mixin.scss';
+@import '../../assets/variables/variable.scss';
 
 // ==========================
 
@@ -27,7 +26,6 @@ body{
     padding: 0 20px;
     box-sizing: border-box;
 		@media (min-width: 1024px) {
-			max-width: 1270px;
 			margin: 0;
 		}
 }
@@ -224,6 +222,7 @@ body{
 				flex-direction: row;
 				justify-content: center;
 				flex-wrap: wrap;
+				gap: 8%;
 			}
 			a{
 				text-decoration: none;
@@ -236,6 +235,7 @@ body{
 						border-radius: 15px;
 						background-color: white;
 						overflow: hidden;
+						margin-bottom: 20px;
 							@media (min-width: 1024px) {
 								width: 472px;
 								height: 251px;
